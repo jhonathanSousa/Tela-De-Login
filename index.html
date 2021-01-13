@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login | Alura - Curso Online de Tecnologia</title>
+	<!-- Link de style -->
+	<link rel="stylesheet" href="style/style.css">
+	<!-- Link icon da aba -->
+	<link rel="icon" href="favicon.ico">
+</head>
+<body>
+
+	<!-- Cabeçalho de pesquisa de cursos -->
+	<header class="pesquisa">
+		<!-- Formulário de pesquisa de curso -->
+		<form class="curso">
+			<label class="curso__titulo">Qual curso procura?</label>
+			<input type="text" class="curso__input" placeholder="Digite aqui a busca">
+			<input type="submit" class="curso__btn" value="Buscar">
+		</form>
+	</header>
+	
+	<!-- Button para abrir formulário de busca de cursos -->
+	<button class="search"><i class="fa fa-search fa-lg"></i></button>
+
+	<!-- Cabeçalho para fazer login e matricula-->
+	<header class="cabecalho">
+		<h1 class="logo"><img src="image/logo-alura.svg" alt="logo da empresa de cursos online Alura"></h1>
+
+		<!-- Onde pode se fazer login e matricula na alura-->
+		<form class="form-cadastro">
+			<p class="form-cadastro__descricao">ainda não tem acesso?estude com a gente!</p>
+			<button class="form-cadastro__matricula">matricule-se</button>
+			<button class="form-cadastro__login">login</button>
+		</form>
+	</header>
+
+	<main>
+
+		<!-- Tela de login -->
+		<section class="login">
+
+			<form class="form-login">
+
+				<h2 class="form-login__titulo">Já é nosso aluno?</h2>
+				<p class="form-login__descricao">Faça seu login e boa aula!</p>
+
+				<div class="form-input">
+					<label for="email" class="label-padrao">E-mail :</label>
+					<input type="text" id="email" name="email" class="form-input__padrao">
+					<p id="msg-email"></p>
+				</div>
+
+				<div class="form-input">
+					<label for="senha" class="label-padrao">Senha :</label>
+					<input type="password" id="senha" name="senha"  class="form-input__padrao">
+					<p id="msg-senha"></p>
+				</div>
+
+				<div class="btn">
+					<input type="submit" id="btn-entrar" class="btn__login btn__login--entrar" value="entrar">
+					<input type="submit" class="btn__login btn__login--facebook" value="entrar com facebook">
+					<input type="submit" class="btn__login btn__login--google" value="entrar com google">
+				</div>
+				
+				<!-- Link para recuperação de senha -->
+				<p class="btn__senha"><a href="#">Esqueci minha senha</a></p>
+
+			</form>
+
+			<!-- Tecnologias oferecidas pela alura -->
+			<section class="tecnologias">
+
+				<h2 class="tecnologias__titulo">Ainda não é aluno da Alura?</h2>
+				<p class="tecnologias__descricao">São centenas de cursos nas seguintes áreas:</p>
+
+				<ul class="tecnologias__lista">
+
+					<li class="tecnologias__item mobile">
+						<img src="image/mobile.svg">
+						<h3>mobile</h3>
+						<p>Multiplataforma , Kotlin, Android , e mais...</p>
+					</li>
+
+					<li class="tecnologias__item programacao">
+						<img src="image/programacao.svg">
+						<h3>programação</h3>
+						<p>Lógica de programação, Python, Python web, e mais...</p>
+					</li>
+
+					<li class="tecnologias__item front-end">
+						<img src="image/front-end.svg">
+						<h3>front-end</h3>
+						<p>Html e Css, React, Angular, e mais...</p>
+					</li>
+
+					<li class="tecnologias__item infraestrutura">
+						<img src="image/infraestrutura.svg">
+						<h3>infraestrutura</h3>
+						<p>Linux,Containers , Infraestrutura como Código, e mais...</p>
+					</li>
+
+					<li class="tecnologias__item design-ux">
+						<img src="image/design-ux.svg">
+						<h3>design & ux</h3>
+						<p>UI - User Interface, UX User Experience, Design Gráfico , e mais...</p>
+					</li>
+
+					<li class="tecnologias__item data-bi">
+						<img src="image/data-bi.svg">
+						<h3>data science</h3>
+						<p>Sql e Banco de Dados, Batemática, Data Science,e mais...</p>
+					</li>
+
+					<li class="tecnologias__item marketing-digital">
+						<img src="image/marketing-digital.svg">
+						<h3>marketing digital</h3>
+						<p>Marketing, Seo , Mídia Paga, e mais ...</p>
+					</li>
+
+					<li class="tecnologias__item inovacao-gestao">
+						<img src="image/inovacao-gestao.svg">
+						<h3>inovação e gestão</h3>
+						<p>Métodos Ágeis, Certificação AMBIMA, Gestão Estratégica e mais 	...</p>
+					</li>
+
+				</ul>
+
+
+				<!-- Matricula -->
+				<div class="matricula">
+
+					<img class="matricula__image" src="image/rocket.svg">
+
+					<div class="sobre-matricula">
+						<h2 class="sobre-matricula__titulo">Decole sua carreira!</h2>
+						<p class="sobre-matricula__descricao">Acesse todo o conteúdo</p>
+						<button class="sobre-matricula__btn">matricule-se</button>
+					</div>
+				</div>
+
+			</section>
+
+		</section>
+		
+	</main>
+
+	<!-- Rodapé -->
+	<footer class="rodape">
+
+		<div class="contato">
+
+			<img src="image/logo-alura.svg">
+
+			<!-- Menu rodapé -->
+			<nav class="menu-rodape">
+				<ul class="menu-rodape__lista">
+
+					<li class="menu-rodape__item">
+						<a href="#" class="menu-rodape__link">sobre a alura</a>
+					</li>
+
+					<li class="menu-rodape__item">
+						<a href="#" class="menu-rodape__link">dúvidas frequentes</a>
+					</li>
+
+					<li class="menu-rodape__item">
+						<a href="#" class="menu-rodape__link">sugira um curso</a>
+					</li>
+
+					<li class="menu-rodape__item">
+						<a href="#" class="menu-rodape__link">sugira uma funcionalidade</a>
+					</li>
+
+					<li class="menu-rodape__item">
+						<a href="#" class="menu-rodape__link">blog alura</a>
+					</li>
+
+				</ul>
+			</nav>
+		</div>
+
+		<!-- Redes de contato -->
+		<div class="rede-sociais">
+
+			<!-- Redes sociais da alura -->
+			<div class="midias-sociais">
+				<p class="descricao">acompanhe-nos</p>
+
+				<ul class="midias-sociais__lista">
+
+					<li class="midias-sociais__item">
+						<span class="icon"><i class="fa fa-youtube fa-lg"></i></span>
+					</li>
+
+					<li class="midias-sociais__item">
+						<span class="icon"><i class="fa fa-facebook fa-lg"></i></span>
+					</li>
+
+					<li class="midias-sociais__item">
+						<span class="icon"><i class="fa fa-twitter fa-lg"></i></span>
+					</li>
+
+					<li class="midias-sociais__item">
+						<span class="icon"><i class="fas fa-headphones fa-lg"></i></span>
+					</li>
+
+					<li class="midias-sociais__item">
+						<span class="icon"><i class="fa fa-instagram fa-lg"></i></span>
+					</li>
+
+				</ul>
+			</div>
+
+			<!-- Onde se pode fazer download do aplicativo alura -->
+			<div class="aplicativos">
+
+				<p class="descricao">apps</p>
+
+				<ul class="midias-sociais__lista">
+
+					<li class="midias-sociais__item">
+						<span class="icon"><i class="fab fa-google-play fa-lg"></i></span>
+					</li>
+
+					<li class="midias-sociais__item">
+						<span class="icon"><i class="fab fa-apple fa-lg"></i></span>
+					</li>
+
+				</ul>	
+			</div>
+		</div>
+
+	</footer>
+
+	<!-- Link icons -->
+	<script src="https://kit.fontawesome.com/952f39baf0.js"></script>
+
+	<!-- Pesquisa -->
+	<script src="script/pesquisa.js"></script>
+	<!-- Validação do formulário -->
+	<script src="script/validacao-form.js"></script>
+	
+</body>
+</html>

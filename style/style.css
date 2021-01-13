@@ -1,0 +1,270 @@
+/* CSS Reset */
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: open-sans , sans-serif; text-decoration: none; list-style: none;}*
+
+/* Cor de fundo página */
+body{background-color: #f9fbfd;}
+
+/* Form de pesquisa */
+.pesquisa{border-bottom: 5px solid #2A7AE4;}
+
+/* Formulário de busca de curso do topo da página */
+.curso{display: none;}
+
+/* Button para abrir cabeçalho de pesquisa de curso */
+.search{display: none;}
+
+/* Formatação do cabeçalho */
+.cabecalho{display: flex; align-items: center; justify-content: space-between; padding: 3% 5%; background-color: #fff;}
+
+/* Logo da alura */
+.logo img{max-width: 100%;}
+
+/* Formulário utilizado para fazer matricula e login na alura */
+.form-cadastro__descricao{display: none;}
+
+/* Link para onde pode se fazer matricula na alura */
+.form-cadastro__matricula{border: 2px solid #5ad678; border-radius: 3px; color: #fff; padding: 7px 20px; background-color: #5ad678; text-transform: capitalize; cursor: pointer;}
+
+/* Link para onde se faz login na alura*/
+.form-cadastro__login{border: 2px solid #747c81; border-radius: 3px; background-color: transparent; color: #747c81; cursor: pointer; font-weight: bold; padding: 7px 15px; text-transform: capitalize;}
+
+/* Formulário para fazer login na alura*/
+
+.login{padding: 50px 15px; background-color: #f9fbfd;}
+
+.form-login{padding: 50px 30px; background-color: #fff; height: auto; border-radius: 5px;}
+
+/* Titulo do formulário */
+.form-login__titulo{text-align: center; color: #747c81; font-size: 28px; margin-bottom: 15px;}
+
+/* Descrição do formulário */
+.form-login__descricao{text-align: center; line-height: 0; margin-bottom: 30px; color: #747c81;}
+
+/* Inputs de email e senha do form-login */
+.form-input{display: flex; flex-direction: column;}
+
+/* Etiquetas dos inputs email e senha do form-login */
+.label-padrao{color: #747c81; margin-bottom: 5px;}
+
+/* Formatação dos inputs email e senha do form-login */
+.form-input__padrao{width: 100%; border-radius: 5px; border: 1px solid #eee; padding: 12px 15px; margin-bottom: 20px;}
+
+/* Buttons de login do form-login */
+.btn{display: flex; flex-direction: column; align-items: center;}
+
+/* Formatação dos buttons entrar,facebook e google do form-login */
+.btn__login{width: 200px; padding: 18px 5px; margin-bottom: 15px; border: none; border-radius: 5px; text-transform: uppercase; color: #fff; cursor: pointer;}
+
+/* Button de entrada do form-login */
+.btn__login--entrar{background-color: #747c81;}
+
+/* Button de login com o facebook form-login */
+.btn__login--facebook{background-color: #4E6BA7;}
+
+/* Button de login com o google form-login */
+.btn__login--google{background-color: #51BCFF;}
+
+/* Link para recuperar a senha de login da alura do form-login */
+.btn__senha{text-align: center; margin-top: 30px;}
+.btn__senha a{color: #747c81;text-decoration: underline;}
+
+/* Classes para validação do formulário de login do form-login no javascript */
+.valida{border: 1px solid red}
+#msg-email,
+#msg-senha{color: red; font-weight: bold; margin: 0 0px 10px 0;}
+
+/* Titulo e descrição sobre formações oferecidas pela alura */
+.tecnologias{padding: 50px 5px;}
+.tecnologias__titulo{color: #747c81; font-size: 1.7em; text-align: center; border-bottom: 3px solid #747c81;}
+.tecnologias__descricao{color: #747c81;text-align: center; font-size: 1em; letter-spacing: 2px; line-height: 1.5; margin: 1.2em 0; font-weight: 400;}
+
+/* Lista de formações oferecidas pela alura */
+.tecnologias__lista{display: flex; justify-content: space-between; flex-wrap: wrap;}
+
+/* Formatação de cada formação oferecida pela alura*/
+.tecnologias__item{padding: 10px; width: 48.5%; height: auto; margin-bottom: 25px; border-top: 5px solid rgba(0,0,0,0.2); box-shadow: 2px 2px 12px rgba(0,0,0,0.5);}
+
+/* Logos das formações oferecidas pela alura*/
+.tecnologias__item img{width: 100%; max-width: 25px;}
+
+/* titulos das formações oferecidas pela alura*/
+.tecnologias__item h3{color: #fff; margin: 10px 0; font-size: 0.90em; text-transform: capitalize;}
+
+/* Descrições das formações oferecidas pela alura*/
+.tecnologias__item p{font-style: italic; color: #fff; opacity: 0.7; font-size: 0.82em;}
+
+/* Formações oferecidas pela alura */
+.mobile{background-color: #ffba05;}
+
+.programacao{background-color: #00c86f;}
+
+.front-end{background-color: #6bd1ff;}
+
+.infraestrutura{background-color: #f16165;}
+
+.design-ux{background-color: #dc6ebe;}
+
+.data-bi{background-color: #9cd33b;}
+
+.marketing-digital{background-color: #6b5be2;}
+
+.inovacao-gestao{background-color: #ff8c2a;}
+
+/* Como se matricular nos cursos alura */
+.matricula{display: flex; align-items: center; justify-content: space-between; background-color: #E3E8EC; padding: 30px 20px;}
+.matricula__image{margin-right: 20px;}
+
+/* Titulo sobre a matricula */
+.sobre-matricula__titulo{font-size: 1.43em; color: #747c81;}
+
+/* Descrição sobre a matricula */
+.sobre-matricula__descricao{font-size: 0.87em; color: #747c81; margin: 0.62em 0;}
+
+/* Link para a página da matricula alura */
+.sobre-matricula__btn{padding: 10px 30px; color: #fff; background-color: #5ad678; border: 1px solid #5ad678; text-transform: uppercase; font-weight: bold; border-radius: 5px; font-size: 0.75em; cursor: pointer;}
+
+
+/* Formatação do rodapé */
+.rodape{padding: 30px 30px;border-top: 1.5px solid #ecf2f6;}
+
+/* Contato das redes sociais alura */
+.contato{display: flex; justify-content: space-between; align-items: center; margin-bottom: 2em;}
+
+/* Formatação do menu do rodapé */
+.menu-rodape__item{line-height: 30px;}
+
+.menu-rodape__link{color: #747c81; text-transform: uppercase; font-size: 0.75em;}
+
+/* Formatação de rede sociais da alura */
+.rede-sociais{display: flex; justify-content: space-between;}
+
+/* Formatação do titulo de acompanhe-nos e apps do rodapé */
+.descricao{text-transform: uppercase; color: #8696a0; margin-bottom: 20px; font-size: 0.75em;}
+
+.midias-sociais__lista{display: flex;}
+
+.midias-sociais__item{margin-right: 5px;}
+
+/* Icones de redes sociais e apps da alura */
+.icon i{ background-color: #8696a0; width: 36px; height: 36px; border-radius: 36px; text-align: center; line-height: 36px; color: #fff; cursor: pointer;}
+
+/* Media query 430px para alinhar elemetos da class matricula */
+@media (max-width: 400px) {
+
+.matricula{display: flex; align-items: center; justify-content: space-between; background-color: #E3E8EC;}
+.sobre-matricula__btn{padding: 8px 4px; font-size: 0.65em;}
+
+}
+
+/* Media query criada para mudar tamanho do icone */
+@media (max-width: 370px){
+.icon i{background-color: #8696a0; width: 30px; height: 30px; border-radius: 30px; text-align: center; line-height: 30px; color: #fff;}
+}
+
+/* Media query criada para dimunuir tamanho do form-login */
+@media (min-width: 667px){
+
+.form-login{margin: 0 auto; width: 80%; padding: 50px 30px; background-color: #fff; height: auto; border-radius: 5px;}
+
+.tecnologias__lista{justify-content: flex-start;}
+
+.tecnologias__item{width: 30%; margin-left: 30px;}
+
+.tecnologias__item:nth-child(3n + 1){margin-left: 0;}
+
+.matricula{justify-content: space-around;}
+
+/* Formatação do rodapé */
+
+.rodape{display: flex; justify-content: space-between;}
+
+.contato,.rede-sociais{width: 50%; justify-content: space-around;}
+
+}
+
+/* Media query criada para mexer no tamanho do form-login e tecnologias__item */
+@media (min-width: 767px){
+
+.form-login{width: 70%;}
+
+.form-input{width: 80%; margin: 0 auto;}
+
+.tecnologias__item{width: 30%; margin-left: 35px;}
+	
+}
+
+@media (min-width: 946px){
+
+/* Formulário de busca de curso do topo da página */
+.pesquisa{display: none; padding: 1.5% 0; background-color: #2A7AE4;}	
+
+.curso{display: flex; justify-content: center;}
+
+.curso__titulo{margin-top: 5px; margin-right: 10px; color: #fff; font-size: 1.3em;}
+
+.curso__input{width: 50%; padding: 10px 10px; margin-right: 10px; border-radius: 5px 0 0 5px; border: 1px solid #fff; font-size: 1em;}
+
+.curso__btn{padding: 10px 25px; color: #2A7AE4; border-radius: 0 5px 5px 0; border: 1px solid #fff; background-color: #fff;}
+
+.search{display: block; position: absolute; left: 17%; background-color: #2A7AE4; border: 1px solid #2A7AE4; color: #fff; padding: 8px 8px; border-radius: 0 0 5px 5px;}
+
+/* Class usar no javascript para abrir cabeçalho de pesquisa de curso*/
+.open{display: block;}
+
+/* Formatação do cabeçalho*/
+.cabecalho{padding: 1.5% 5%; border-top: 5px solid #2A7AE4;}	
+
+/* Formatação do logo */
+.logo img{width: 80px;}
+
+/* Formatação do cadastro */
+.form-cadastro{display: flex; align-items: center;}
+
+.form-cadastro__descricao{display: block; margin-right: 10px; text-transform: uppercase; color: #747c81; font-size: 0.75em; font-weight: bold;}
+
+.form-cadastro__matricula{margin-right: 10px;}
+
+.form-cadastro__matricula ,
+.form-cadastro__login{text-transform: uppercase; font-weight: bold; padding: 10px 15px;}
+
+/* Formatação da tela de login  */
+.login{display: flex; align-items: center;}
+
+.form-login{width: 40%; height: 580px;}
+
+.form-input{width: 100%;}
+
+.form-input__padrao{padding: 15px 15px;}
+
+/* Formatação das formações da alura */
+.tecnologias{width: 50%;}
+
+.tecnologias__item{transition: 0.5s;}
+
+.tecnologias__item:hover{transform: scale(1.1);}
+
+.tecnologias__titulo{font-size: 2.6em; font-weight: bold;}
+
+.tecnologias__descricao{margin: 1.5em 0; font-size: 1.31em;}
+
+.tecnologias__item{margin-left: 20px;}
+
+/* Formatação de matricula */
+.matricula{height: 130px;}
+
+/* Formatação do rodapé */
+.rodape{display: flex; justify-content: space-between; width: 90%; margin: 0 auto;}
+
+.contato,.rede-sociais{width: 50%; justify-content: space-around;}
+}
+
+/* Media query criada para mudar tamanhos dos buttons no desktop */
+@media (min-width: 1117px){
+
+/* Formatação do button login */
+.btn{flex-direction: row; flex-wrap: wrap; justify-content: center;}
+
+.btn__login{width: 180px;}
+
+.btn__login--entrar{margin-right: 10px;}
+}
